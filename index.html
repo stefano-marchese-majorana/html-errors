@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Unica con tanti Errori</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margn: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            paddign: 20px;
+            text-align: center;
+        }
+        table {
+            widht: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            borderr: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            color: blu;
+        }
+        .hidden-text {
+            displayy: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti alla pagina unica</h1>
+        <p>Questa pagina contiene vari errori che dovrete trovare e correggere.</p>
+    </header>
+    <main>
+        <h2>Sezione immagini</h2>
+        <p>Ecco alcune immagini con problemi:</p>
+        <div>
+            <img src="image1.jpg" alt="Immagine 1">
+            <img scr="image2.jpg" alt="Immagine 2">
+            <img src="image3.jpg" alt="Immagine 3" style="widht: 300px;">
+        </div>
+
+        <h2>Tabella con errori</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Età</th>
+                <th>Città</th>
+            </tr>
+            <tr>
+                <td>Mario Rossi</td>
+                <td>25</td>
+                <td>Milano</td>
+            </tr>
+            <tr>
+                <td>Anna Bianchi<td>
+                <td>30</td>
+                <td>Roma</td>
+            </tr>
+            <tr>
+                <td>Giulia Verdi</td>
+                <td></td>
+                <td>Napoli</td>
+            </tr>
+        </table>
+
+        <h2>Link con problemi</h2>
+        <p>Prova a cliccare sui link:</p>
+        <ul>
+            <li><a href="">Link vuoto</a></li>
+            <li><a hrfe="http://www.lastampe.com">La Stampa</a></li>
+            <li><a href="http://www.itismajo.it" target="new">Majorana</a></li>
+        </ul>
+    </main>
+</body>
+</html>
